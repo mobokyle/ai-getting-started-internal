@@ -14,6 +14,12 @@ const nextConfig = {
         port: "",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "pbxt.replicate.delivery",
+        port: "",
+        pathname: "**",
+      },
 			{
         protocol: "https",
         hostname: "replicate.delivery",
@@ -27,6 +33,7 @@ const nextConfig = {
         pathname: "**",
       },
     ],
+    domains: ['oaidalleapiprodscus.blob.core.windows.net'],
   },
 };
 
